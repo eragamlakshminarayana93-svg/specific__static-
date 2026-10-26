@@ -4,8 +4,3 @@ from django.shortcuts import render
 def specific(request):
     return render(request,'specific.html')
 
-def bootstrap(request):
-    return render(request,'bootstrap.html')
-
-def boot1(request):
-    return render(request,'boot.html')
