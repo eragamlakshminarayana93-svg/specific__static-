@@ -8,4 +8,4 @@ def bootstrap(request):
     return render(request,'bootstrap.html')
 
 def boot1(request):
-    return render(request,'boot1.html')
+    return render(request,'boot.html')
