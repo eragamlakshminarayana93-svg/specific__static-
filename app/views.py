@@ -3,3 +3,9 @@ from django.shortcuts import render
 # Create your views here.
 def specific(request):
     return render(request,'specific.html')
+
+def bootstrap(request):
+    return render(request,'bootstrap.html')
+
+def boot1(request):
+    return render(request,'boot1.html')
